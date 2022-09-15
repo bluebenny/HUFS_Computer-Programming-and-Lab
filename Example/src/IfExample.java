@@ -1,6 +1,8 @@
-public class P109 {
+public class IfExample {
     public static void main(String[] args) {
         int score = 93;
+
+        // if
 
         if (score >= 90) {
             System.out.println("A");
