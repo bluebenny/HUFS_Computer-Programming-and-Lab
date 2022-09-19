@@ -45,11 +45,11 @@ public class SwitchExample { // p.117
                 System.out.println("F");
                 break;
         }
-
+        /*
         // String
-
+        
         String str = "과장";
-
+        
         switch(str) {
             case "부장":
                 System.out.println("700만원");
@@ -60,5 +60,6 @@ public class SwitchExample { // p.117
             default:
                 System.out.println("300만원");
         }
+        */
     }
 }

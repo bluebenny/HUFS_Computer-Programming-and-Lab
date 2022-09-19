@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "Example/src",
+        "KarelExample/example/src/main/java/hufs/ice/cp"
+    ]
+}
