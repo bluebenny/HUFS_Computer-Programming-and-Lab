@@ -22,7 +22,7 @@ public class Assignment1_3 {
 		int finalDay = finalDate;
 		// Cal finalYMD 끝
 
-		int day = 0;
+		int days = 0;
 
         /* Idea: 연, 월, 일 순으로 날짜를 계산함 
          * 
@@ -33,18 +33,16 @@ public class Assignment1_3 {
          */
         
         /* 1부 */
-
 		while(finalYear > startYear) {
 			if (finalMonth == 0) { // 연단위로 날짜를 더함. 두번째 반복부터 실행되는 부분임.
-				day += 365;
+				days += 365;
 				
 				// 윤년 검사: 윤년인지 검사하고 목적에 맞는 연산을 실행함.
 				if (finalYear % 4 == 0)
 					if (finalYear % 100 == 0) {
-						if (finalYear % 400 == 0) day += 1;
-					} else day += 1;
+						if (finalYear % 400 == 0) days += 1;
+					} else days += 1;
 				// 윤년 검사 끝
-				
 			} else { // finalMonth가 0이 아닐때: 처음 반복 시에 실행되는 부분임.
 				while (finalMonth > 0) {
 					// Cal monthDay: month 값에 따른 월의 일수를 monthDay 변수에 저장함
@@ -76,20 +74,24 @@ public class Assignment1_3 {
 							break;
 					}
 					// Cal monthDay 끝
-					if (finalDay < monthDay) {
-                        day += finalDay; // 가장 처음 실행되는 day 연산
-                        finalDay = 50;
-                    } else day += monthDay;
+
+					if (finalDay != 0) {
+                        days += finalDay; // 가장 처음 실행되는 day 연산
+
+                        finalDay = 0;
+                    } else days += monthDay;
+
 					finalMonth -= 1;
 				}
 			}
+
             finalYear -= 1;
 		}
 
         /* 2부 */
-
         if (finalMonth == 0) finalMonth = 12;
-        while (finalMonth > startMonth) {
+        
+		while (finalMonth > startMonth) {
             // Cal monthDay
             int monthDay = 0;
             switch (finalMonth) {
@@ -121,46 +123,52 @@ public class Assignment1_3 {
                     break;
             }
             // Cal monthDay 끝
-            day += monthDay;
+			
+            days += monthDay;
+
             finalMonth -= 1;
         }
 
         /* 3부 */
+		if (finalDay == 0) {
+			// Cal monthDay
+			int monthDay = 0;
+			switch (finalMonth) {
+				case 1:
+				case 3:
+				case 5:
+				case 7:
+				case 8:
+				case 10:
+				case 12:
+					monthDay = 31;
+					break;
+				case 4:
+				case 6:
+				case 9:
+				case 11:
+					monthDay = 30;
+					break;
+				case 2:
+					monthDay = 28;
+					// 윤년 검사
+					if (finalYear % 4 == 0)
+						if (finalYear % 100 == 0) {
+							if (finalYear % 400 == 0)
+								monthDay += 1;
+						} else
+							monthDay += 1;
+					// 윤년 검사 끝
+					break;
+			}
+			// Cal monthDay 끝
 
-		// Cal monthDay
-		int monthDay = 0;
-		switch(finalMonth) {
-			case 1: 
-			case 3:
-			case 5:
-			case 7:
-			case 8:
-			case 10:
-			case 12:
-				monthDay = 31;
-				break;
-			case 4:
-			case 6:
-			case 9:
-			case 11:
-				monthDay = 30;
-				break;
-			case 2:
-				monthDay = 28;
-				// 윤년 검사
-				if (finalYear % 4 == 0)
-					if (finalYear % 100 == 0) {
-						if (finalYear % 400 == 0) monthDay += 1;
-					} else monthDay += 1;
-				// 윤년 검사 끝
-				break;
+			finalDay = monthDay;
 		}
-		// Cal monthDay 끝
-		
-        if (finalDay == 50) finalDay = monthDay;
-		day += finalDay - startDay + 1;
-		
-		return day;
+		days += finalDay - startDay + 1;
+
+
+		return days;
 	}
 
     public static void main(String[] args) throws Exception {
