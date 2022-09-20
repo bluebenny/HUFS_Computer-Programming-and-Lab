@@ -1,3 +1,4 @@
+/*
 package hufs.ice.cp;
 
 import hufs.karel.HKarel;
@@ -16,5 +17,6 @@ public class FirstHKarelProgram extends HufsProgram {
     public static void main(String[] args) {
         HufsProgram.main(args, new HKarel("철수"));
     }
-    
+
 }
+*/

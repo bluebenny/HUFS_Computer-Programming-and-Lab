@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Canvas {
+public class Assignment1_3 {
 
 	// 필요한 부분을 수정하여 작성하시오.
 	
