@@ -77,7 +77,7 @@ public class Assignment1_3 {
 					}
 					// Cal monthDay 끝
 					if (finalDay < monthDay) {
-                        day += finalDay;
+                        day += finalDay; // 가장 처음 실행되는 day 연산
                         finalDay = 50;
                     } else day += monthDay;
 					finalMonth -= 1;
