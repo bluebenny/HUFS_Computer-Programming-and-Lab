@@ -29,13 +29,13 @@ public class Assignment1_3 {
 		 * 
 		 * ex) 20190503 ~ 20220628 계산
 		 * 1부: 20200101 ~ 20220628 계산
-		 * 2부: 20190601 ~ 20191213 계산
+		 * 2부: 20190601 ~ 20191231 계산
 		 * 3부: 20190503 ~ 20190531 계산
 		 */
 
 		/* 1부 */
 		while (finalYear > startYear) {
-			if (finalMonth == 0) { // 연단위로 날짜를 더함. 두번째 반복부터 실행되는 부분임.
+			if (finalMonth == 0) { // (startYear + 1/01/01) ~ (finalYear - 1/12/31)을 구함. 두번째 반복부터 실행되는 부분임.
 				days += 365;
 
 				// 윤년 검사: 윤년인지 검사하고 목적에 맞는 연산을 실행함.
@@ -46,9 +46,9 @@ public class Assignment1_3 {
 					} else
 						days += 1;
 				// 윤년 검사 끝
-			} else { // finalMonth가 0이 아닐때: 처음 반복 시에 실행되는 부분임.
-				while (finalMonth > 0) {
-					// Cal monthDay: month 값에 따른 월의 일수를 monthDay 변수에 저장함
+			} else { // finalMonth가 0이 아닐때: 처음 반복 시에 실행되는 부분임. (finalYear/01/01) ~ (finalYear/finalMonth/finalDay)를 구함.
+				while (finalMonth > 0) { // (finalYear/01/01) ~ (finalYear/finalMonth - 1/말일)을 구함.
+					// Cal monthDay: month 값에 따른 월의 일수를 monthDay 변수에 저장함.
 					int monthDay = 0;
 					switch (finalMonth) {
 						case 1:
@@ -81,9 +81,9 @@ public class Assignment1_3 {
 					// Cal monthDay 끝
 
 					if (finalDay != 0) {
-						days += finalDay; // 가장 처음 실행되는 day 연산
+						days += finalDay; // 가장 처음 실행되는 day 연산. (finalYear/finalMonth/01) ~ (finalYear/finalMonth/finalDay)를 구함.
 
-						finalDay = 0;
+						finalDay = 0; // (finalYear/finalMonth/01) ~ (finalYear/finalMonth/finalDay)가 계산되었음을 의미함.
 					} else
 						days += monthDay;
 
@@ -95,7 +95,7 @@ public class Assignment1_3 {
 		}
 
 		/* 2부 */
-		if (finalMonth == 0)
+		if (finalMonth == 0) // startYear와 finalYear가 달라 위의 조건문이 실행되었다면 실행되는 부분임.
 			finalMonth = 12;
 
 		while (finalMonth > startMonth) {
