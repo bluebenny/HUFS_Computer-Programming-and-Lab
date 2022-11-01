@@ -1,4 +1,6 @@
 public class Car {
+
+    public int speed;
     String company = "현대자동차";
     String model;
     String color;
@@ -19,5 +21,14 @@ public class Car {
         this.model = model;
         this.color = color;
         this.maxSpeed = maxSpeed;
+    }
+
+    public void speedUp() {
+        speed += 1;
+    }
+
+    public void stop() {
+        System.out.println("차를 멈춤");
+        speed = 0;
     }
 }

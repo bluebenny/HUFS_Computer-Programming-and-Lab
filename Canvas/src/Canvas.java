@@ -1,8 +1,18 @@
-public class Canvas {
-	public static void main(String[] args) {
+import java.io.*;
+// import java.util.Scanner;
 
-		char a = '1';
-		java.lang.System.err.println(a - 48);
-		System.out.println(a - 48);
+public class Canvas {
+
+	public static void main(String[] args) throws IOException {
+
+		// Canvas2 canvas1 = new Canvas2();
+		// Canvas2 canvas2 = new Canvas2();
+
+		// System.out.println(canvas1.studentNumber);
+		// System.out.println(canvas2.studentNumber);
+
+		System.out.println(-1 >> 30);
+		System.out.println(-1 >>> 30);
+
 	}
 }
