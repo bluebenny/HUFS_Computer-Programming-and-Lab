@@ -18,4 +18,5 @@ public class GeonuKarel extends HKarel {
         while(!frontIsBlocked())
             move();
     }
+    
 }

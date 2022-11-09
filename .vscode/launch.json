@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KarelAssignment1_2",
+            "request": "launch",
+            "mainClass": "com.bluebenny.KarelAssignment1_2",
+            "projectName": "assignment"
+        },
+        {
+            "type": "java",
             "name": "Launch KarelAssignment1_1",
             "request": "launch",
             "mainClass": "com.bluebenny.KarelAssignment1_1",
