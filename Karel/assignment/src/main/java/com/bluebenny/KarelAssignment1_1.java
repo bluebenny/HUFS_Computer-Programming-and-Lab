@@ -14,8 +14,7 @@ public class KarelAssignment1_1 extends HufsProgram {
     @Override
     protected void onStart() {
 
-        karel.move();
-        karel.move();
+        karel.move(2);
         karel.turnRight();
         karel.move();
         karel.turnLeft();
@@ -24,9 +23,7 @@ public class KarelAssignment1_1 extends HufsProgram {
         karel.putBeeper();
         karel.turnAround();
 
-        karel.move();
-        karel.move();
-        karel.move();
+        karel.move(3);
         karel.turnRight();
         karel.move();
         karel.turnRight();

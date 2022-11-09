@@ -13,19 +13,23 @@ public class KarelAssignment1_3 extends HufsProgram {
 
     @Override
     protected void onStart() {
-        int turnTimes = 1;
 
         while(true) {
+            boolean side = karel.facingEast();
+
             karel.moveToWall();
-            
-            karel.turnLeft(turnTimes);
+            if(side)
+                karel.turnLeft();
+            else
+                karel.turnRight();
             
             if(karel.frontIsBlocked()) break;
 
             karel.move();
-            karel.turnLeft(turnTimes);
-
-            turnTimes = (turnTimes == 1) ? 3 : 1;
+            if(side)
+                karel.turnLeft();
+            else
+                karel.turnRight();
         }
     }
 

@@ -14,12 +14,6 @@ public class GeonuKarel extends HKarel {
             this.move();
     }
 
-    //Overloading
-    public void turnLeft(int times) {
-        for(int i = 0; i < times; i++)
-            super.turnLeft();
-    }
-
     public void moveToWall() {
         while(!frontIsBlocked())
             move();
