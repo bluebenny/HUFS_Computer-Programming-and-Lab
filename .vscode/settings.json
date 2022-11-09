@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "KarelExample/example/src/main/java/hufs/ice/cp",
-        "Example/src",
+        "Assignment/src",
         "Canvas/src",
-        "Assignment/src"
-    ]
+        "Example/src",
+        "Karel/assignment/src/main/java"
+    ],
+    "maven.view": "flat",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

@@ -1,0 +1,161 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch KarelAssignment1_1",
+            "request": "launch",
+            "mainClass": "com.bluebenny.KarelAssignment1_1",
+            "projectName": "assignment"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyExample",
+            "request": "launch",
+            "mainClass": "ArrayCopyExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment1_1",
+            "request": "launch",
+            "mainClass": "Assignment1_1",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment1_2",
+            "request": "launch",
+            "mainClass": "Assignment1_2",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment1_3",
+            "request": "launch",
+            "mainClass": "Assignment1_3",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculatorExample",
+            "request": "launch",
+            "mainClass": "CalculatorExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch Canvas",
+            "request": "launch",
+            "mainClass": "Canvas",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch CarExample",
+            "request": "launch",
+            "mainClass": "CarExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch FieldInitValueExample",
+            "request": "launch",
+            "mainClass": "FieldInitValueExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForExample",
+            "request": "launch",
+            "mainClass": "ForExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfExample",
+            "request": "launch",
+            "mainClass": "IfExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerExample",
+            "request": "launch",
+            "mainClass": "ScannerExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchExample",
+            "request": "launch",
+            "mainClass": "SwitchExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch CellPhoneExample",
+            "request": "launch",
+            "mainClass": "cellphone.CellPhoneExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sample",
+            "request": "launch",
+            "mainClass": "ch07.com.apple.Sample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentExample",
+            "request": "launch",
+            "mainClass": "ch07.com.apple.StudentExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradStudent",
+            "request": "launch",
+            "mainClass": "kr.ac.hufs.ice.GradStudent",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "package1.B",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch C",
+            "request": "launch",
+            "mainClass": "package2.C",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstHKarelProgram",
+            "request": "launch",
+            "mainClass": "hufs.ice.cp.FirstHKarelProgram",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "kr.ac.hufs.ice.App",
+            "projectName": "kerelexample"
+        }
+    ]
+}
