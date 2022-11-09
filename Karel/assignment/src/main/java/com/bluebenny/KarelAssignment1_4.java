@@ -18,7 +18,7 @@ public class KarelAssignment1_4 extends HufsProgram {
     }
 
     public static void main(String[] args) {
-        HufsProgram.main(args, new GeonuKarel("철수"));
+        HufsProgram.main(args, new GeonuKarel("건우"));
     }
 
 }
