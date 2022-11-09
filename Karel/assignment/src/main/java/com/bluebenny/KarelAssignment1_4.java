@@ -13,7 +13,7 @@ public class KarelAssignment1_4 extends HufsProgram {
 
     @Override
     protected void onStart() {
-        
+        karel.move();
         
     }
 
