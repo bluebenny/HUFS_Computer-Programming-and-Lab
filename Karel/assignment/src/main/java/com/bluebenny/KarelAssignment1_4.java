@@ -16,24 +16,28 @@ public class KarelAssignment1_4 extends HufsProgram {
         
         karel.putBeeper();
         karel.moveToWall();
-        karel.putBeeper();
+        if(karel.noBeepersPresent())
+            karel.putBeeper();
         karel.turnAround();
-        karel.move();
+        if(karel.frontIsClear())
+            karel.move();
 
-        do {
+        while(karel.noBeepersPresent()) {
             while(karel.noBeepersPresent())
                 karel.move();
             karel.turnAround();
             karel.move();
             karel.putBeeper();
             karel.move();
-        } while(karel.noBeepersPresent());
+        }
 
         karel.turnAround();
-        karel.move();
+        if(karel.frontIsClear())
+            karel.move();
         karel.putBeeper();
 
         karel.moveToWall();
+        karel.turnAround();
         karel.pickBeeper();
         while(karel.frontIsClear()){
             karel.move();

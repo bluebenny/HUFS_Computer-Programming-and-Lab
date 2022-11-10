@@ -15,4 +15,3 @@ public class GeonuKarelMk2 extends GeonuKarel {
         beeperTurn = !beeperTurn;
     }
 }
-

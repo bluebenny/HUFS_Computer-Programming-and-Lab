@@ -8,7 +8,7 @@ public class KarelAssignment1_3 extends HufsProgram {
 
     @Override
     protected void onInit() {
-        karel = (GeonuKarelMk2)getHObject("건우");
+        karel = (GeonuKarelMk2)getHObject("건우2");
     }
 
     @Override
@@ -34,7 +34,7 @@ public class KarelAssignment1_3 extends HufsProgram {
 
     
     public static void main(String[] args) {
-        HufsProgram.main(args, new GeonuKarelMk2("건우"));
+        HufsProgram.main(args, new GeonuKarelMk2("건우2"));
     }
     
 }
