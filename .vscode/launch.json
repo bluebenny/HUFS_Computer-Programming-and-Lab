@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RemoteControlExample",
+            "request": "launch",
+            "mainClass": "ch08.RemoteControlExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
             "name": "Launch KarelAssignment1_2",
             "request": "launch",
             "mainClass": "com.bluebenny.KarelAssignment1_2",
