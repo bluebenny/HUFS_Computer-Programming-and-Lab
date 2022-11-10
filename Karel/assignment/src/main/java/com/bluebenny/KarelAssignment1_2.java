@@ -18,7 +18,7 @@ public class KarelAssignment1_2 extends HufsProgram {
         do {
             if(!mark) mark = true;
             else karel.move(4);
-
+            
             karel.turnLeft();
             if(karel.noBeepersPresent()) karel.putBeeper();
             while(karel.frontIsClear()) {

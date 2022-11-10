@@ -17,9 +17,7 @@ public class KarelAssignment1_3 extends HufsProgram {
         while(true) {
             karel.moveToWall();
 
-            boolean isOnRightSide = karel.facingEast();
-
-            if(isOnRightSide)
+            if(karel.isOnRightSide)
                 karel.turnLeft();
             else
                 karel.turnRight();
@@ -27,7 +25,7 @@ public class KarelAssignment1_3 extends HufsProgram {
             if(karel.frontIsBlocked()) break;
 
             karel.move();
-            if(isOnRightSide)
+            if(karel.isOnRightSide)
                 karel.turnLeft();
             else
                 karel.turnRight();
