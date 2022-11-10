@@ -8,6 +8,7 @@ public class GeonuKarel extends HKarel {
     
     public GeonuKarel(String name) {
         super(name);
+        setBeepersInBag(9999);
     }
 
     //Overloading
