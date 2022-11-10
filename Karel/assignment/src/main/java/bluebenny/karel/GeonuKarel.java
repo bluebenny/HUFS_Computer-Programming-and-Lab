@@ -1,4 +1,4 @@
-package com.bluebenny;
+package bluebenny.karel;
 
 import hufs.karel.HKarel;
 

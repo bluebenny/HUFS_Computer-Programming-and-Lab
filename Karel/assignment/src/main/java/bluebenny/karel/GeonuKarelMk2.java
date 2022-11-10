@@ -1,4 +1,4 @@
-package com.bluebenny;
+package bluebenny.karel;
 
 public class GeonuKarelMk2 extends GeonuKarel {
 
