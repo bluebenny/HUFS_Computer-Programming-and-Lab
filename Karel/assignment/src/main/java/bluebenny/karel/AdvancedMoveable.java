@@ -1,6 +1,6 @@
 package bluebenny.karel;
 
 public interface AdvancedMoveable {
-    public void move(int n);
+    public void move(int distance);
     public void moveToWall();
 }
