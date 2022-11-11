@@ -4,11 +4,11 @@ import hufs.karel.HufsProgram;
 
 public class KarelAssignment1_3 extends HufsProgram {
 
-    GeonuKarelMk2 karel;
+    GeonuKarel karel;
 
     @Override
     protected void onInit() {
-        karel = (GeonuKarelMk2)getHObject("건우2");
+        karel = (GeonuKarel)getHObject("건우2");
     }
 
     @Override

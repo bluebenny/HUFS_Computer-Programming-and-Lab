@@ -2,7 +2,7 @@ package bluebenny.karel;
 
 import hufs.karel.HKarel;
 
-public class GeonuKarel extends HKarel {
+public class GeonuKarel extends HKarel implements AdvancedMoveable {
 
     boolean isOnRightSide = false;
     
@@ -11,12 +11,13 @@ public class GeonuKarel extends HKarel {
         setBeepersInBag(9999);
     }
 
-    //Overloading
+    @Override
     public void move(int distance) {
         for(int i = 0; i < distance; i++)
             this.move();
     }
 
+    @Override
     public void moveToWall() {
         while(frontIsClear())
             move();

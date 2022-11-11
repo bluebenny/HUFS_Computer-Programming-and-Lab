@@ -13,14 +13,14 @@ public class KarelAssignment1_4 extends HufsProgram {
 
     @Override
     protected void onStart() {
-        
+
         karel.putBeeper();
+        if(karel.frontIsBlocked()) return;
+        
         karel.moveToWall();
-        if(karel.noBeepersPresent())
-            karel.putBeeper();
+        karel.putBeeper();
         karel.turnAround();
-        if(karel.frontIsClear())
-            karel.move();
+        karel.move();
 
         while(karel.noBeepersPresent()) {
             while(karel.noBeepersPresent())
@@ -32,8 +32,7 @@ public class KarelAssignment1_4 extends HufsProgram {
         }
 
         karel.turnAround();
-        if(karel.frontIsClear())
-            karel.move();
+        karel.move();
         karel.putBeeper();
 
         karel.moveToWall();
