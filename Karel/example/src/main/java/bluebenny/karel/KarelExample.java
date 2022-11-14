@@ -1,5 +1,9 @@
 package bluebenny.karel;
 
+import java.util.ArrayList;
+// import java.util.Random;
+
+import hufs.karel.HKarel;
 import hufs.karel.HObject;
 import hufs.karel.HufsProgram;
 
@@ -23,6 +27,16 @@ public class KarelExample extends HufsProgram {
 
         add((HObject)arr[0]);
         add((HObject)arr[1]);
+
+        ArrayList<HObject> arr2 = new ArrayList<HObject>();
+        arr2.add(new MyKarel("Sam"));
+        arr2.add(new HKarel("Kim"));
+        // arr2.add(new Random());
+        
+        add((HObject)arr2.get(0));
+        add((HObject)arr2.get(1));
+        // add((HObject)arr2.get(2));  // java.lang.ClassCastException 하지만 오류메세지 없음
+
     }
 
     @Override

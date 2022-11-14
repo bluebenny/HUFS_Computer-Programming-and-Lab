@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayListExample",
+            "request": "launch",
+            "mainClass": "ArrayListExample",
+            "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
+        },
+        {
+            "type": "java",
             "name": "Launch KarelExample",
             "request": "launch",
             "mainClass": "bluebenny.karel.KarelExample",
