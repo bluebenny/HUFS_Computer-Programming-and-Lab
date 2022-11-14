@@ -3,7 +3,8 @@
         "Assignment/src",
         "Canvas/src",
         "Example/src",
-        "Karel/assignment/src/main/java"
+        "Karel/assignment/src/main/java",
+        "Karel/example/src/main/java"
     ],
     "maven.view": "flat",
     "java.configuration.updateBuildConfiguration": "interactive"

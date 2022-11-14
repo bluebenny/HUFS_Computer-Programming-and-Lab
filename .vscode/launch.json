@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KarelExample",
+            "request": "launch",
+            "mainClass": "bluebenny.karel.KarelExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch RemoteControlExample",
             "request": "launch",
             "mainClass": "ch08.RemoteControlExample",
