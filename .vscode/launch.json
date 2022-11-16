@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch ArrayListExample",
             "request": "launch",
+            "mainClass": "bluebenny.example.ch01_06.ArrayListExample",
+            "projectName": "hufscp"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListExample",
+            "request": "launch",
             "mainClass": "ArrayListExample",
             "projectName": "HUFS_Computer-Programming-and-Lab_c9937690"
         },
