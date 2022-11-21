@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignment1_1",
+            "request": "launch",
+            "mainClass": "assignment.Assignment1_1",
+            "projectName": "hufscp"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberFormatExceptionExample",
+            "request": "launch",
+            "mainClass": "example.ch10.NumberFormatExceptionExample",
+            "projectName": "hufscp"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayIndexOutOfBoundsExceptionExample",
+            "request": "launch",
+            "mainClass": "example.ch10.ArrayIndexOutOfBoundsExceptionExample",
+            "projectName": "hufscp"
+        },
+        {
+            "type": "java",
+            "name": "Launch NullPointerExceptionExample",
+            "request": "launch",
+            "mainClass": "example.ch10.NullPointerExceptionExample",
+            "projectName": "hufscp"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "example.ch09.Main",
+            "projectName": "hufscp"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayListExample",
             "request": "launch",
             "mainClass": "bluebenny.example.ch01_06.ArrayListExample",
