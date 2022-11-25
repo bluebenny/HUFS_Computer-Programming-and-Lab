@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MemberExample",
+            "request": "launch",
+            "mainClass": "ch11.MemberExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountExample",
+            "request": "launch",
+            "mainClass": "ch10.AccountExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrowsExample",
+            "request": "launch",
+            "mainClass": "ch10.ThrowsExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrwsExample",
+            "request": "launch",
+            "mainClass": "ch10.ThrwsExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch CatchByExceptionKindExample",
+            "request": "launch",
+            "mainClass": "ch10.CatchByExceptionKindExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch TryCatchFinallyRuntimeExceptionExample",
+            "request": "launch",
+            "mainClass": "ch10.TryCatchFinallyRuntimeExceptionExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch NullPointerExceptionExample",
+            "request": "launch",
+            "mainClass": "ch10.NullPointerExceptionExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch TryCatchFinallyExample",
             "request": "launch",
             "mainClass": "ch10.TryCatchFinallyExample",
