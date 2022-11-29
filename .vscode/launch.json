@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SrtingGetBytesExample",
+            "request": "launch",
+            "mainClass": "ch11.SrtingGetBytesExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewInstanceExample",
+            "request": "launch",
+            "mainClass": "ch11.NewInstanceExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch KarelClassExample",
+            "request": "launch",
+            "mainClass": "bluebenny.karel.example.KarelClassExample",
+            "projectName": "karel"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetPropertyExample",
+            "request": "launch",
+            "mainClass": "ch11.GetPropertyExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch SystemTimeExample",
+            "request": "launch",
+            "mainClass": "ch11.SystemTimeExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmartPhoneExample",
+            "request": "launch",
+            "mainClass": "ch11.SmartPhoneExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch MemberExample",
             "request": "launch",
             "mainClass": "ch11.MemberExample",
