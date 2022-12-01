@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Canvas04",
+            "request": "launch",
+            "mainClass": "canvas.Canvas04",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch ButtonExample",
+            "request": "launch",
+            "mainClass": "ch09.ButtonExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch Canvas01",
+            "request": "launch",
+            "mainClass": "canvas.Canvas01",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch canvas01",
+            "request": "launch",
+            "mainClass": "canvas.canvas01",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch SrtingGetBytesExample",
             "request": "launch",
             "mainClass": "ch11.SrtingGetBytesExample",
