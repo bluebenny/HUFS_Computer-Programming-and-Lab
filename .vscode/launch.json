@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DateExample",
+            "request": "launch",
+            "mainClass": "ch11.DateExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathExample",
+            "request": "launch",
+            "mainClass": "ch11.MathExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxingUnBoxingExample",
+            "request": "launch",
+            "mainClass": "ch11.BoxingUnBoxingExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchExample",
+            "request": "launch",
+            "mainClass": "ch11.SearchExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyExample",
+            "request": "launch",
+            "mainClass": "ch11.ArrayCopyExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderExample",
+            "request": "launch",
+            "mainClass": "ch11.StringBuilderExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch Canvas04",
             "request": "launch",
             "mainClass": "canvas.Canvas04",
