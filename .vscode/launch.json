@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ThreadNameExample",
+            "request": "launch",
+            "mainClass": "ch12.ThreadNameExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeepPrintExample2",
+            "request": "launch",
+            "mainClass": "ch12.BeepPrintExample2",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeepExample",
+            "request": "launch",
+            "mainClass": "ch12.BeepExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeepPrintExample",
+            "request": "launch",
+            "mainClass": "ch12.BeepPrintExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch DateExample",
             "request": "launch",
             "mainClass": "ch11.DateExample",
