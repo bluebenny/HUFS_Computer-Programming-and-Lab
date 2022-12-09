@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignment1_3",
+            "request": "launch",
+            "mainClass": "assignment1.Assignment1_3",
+            "projectName": "assignment"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainThreadExample",
+            "request": "launch",
+            "mainClass": "ch12.MainThreadExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreadNameExample",
             "request": "launch",
             "mainClass": "ch12.ThreadNameExample",
