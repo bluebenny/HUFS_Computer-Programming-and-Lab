@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BoundedTypeParameterExample",
+            "request": "launch",
+            "mainClass": "ch13.BoundedTypeParameterExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompareMethodExample",
+            "request": "launch",
+            "mainClass": "ch13.CompareMethodExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxingMethodExample",
+            "request": "launch",
+            "mainClass": "ch13.BoxingMethodExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductExample",
+            "request": "launch",
+            "mainClass": "ch13.ProductExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxExample",
+            "request": "launch",
+            "mainClass": "ch13.BoxExample",
+            "projectName": "example"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment1_3",
             "request": "launch",
             "mainClass": "assignment1.Assignment1_3",
